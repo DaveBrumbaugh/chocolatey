@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>projectwise-client</id>
+    <version>10.0.3.329</version>
+    <title>ProjectWise Desktop Client Installation</title>
+    <authors>Bentley Systems, Incorporated</authors>
+    <owners>Dave Brumbaugh</owners>
+    <projectUrl>https://github.com/DaveBrumbaugh/MostOfDavesClasses-CSharp-Wrappers-For-ProjectWise</projectUrl>
+    <iconUrl>https://github.com/DaveBrumbaugh/MostOfDavesClasses-CSharp-Wrappers-For-ProjectWise/blob/master/ProjectWiseDesignIntegration.png</iconUrl>
+    <copyright>Copyright 2020 Bentley Systems, Incorporated</copyright>
+    <tags>projectwise-client ProjectWise Explorer</tags>
+    <summary>Windows Desktop client for ProjectWise Design Integration</summary>
+    <description>Windows Desktop client for ProjectWise Design Integration</description>
+  </metadata>
+  <files>
+    <file src="tools\chocolateyinstall.ps1" target="tools" />
+  </files>
+</package>
