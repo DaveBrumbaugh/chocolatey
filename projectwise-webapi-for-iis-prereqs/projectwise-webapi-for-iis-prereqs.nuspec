@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>projectwise-webapi-for-iis-prereqs</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/DaveBrumbaugh/chocolatey/tree/master/projectwise-deliverables-management</packageSourceUrl>
+    <owners>Dave Brumbaugh</owners>
+    <title>ProjectWise Web API for IIS Prerequisites</title>
+    <authors>Bentley Systems, Incorporated</authors>
+    <projectUrl>https://github.com/DaveBrumbaugh/MostOfDavesClasses-CSharp-Wrappers-For-ProjectWise</projectUrl>
+    <iconUrl>https://github.com/DaveBrumbaugh/MostOfDavesClasses-CSharp-Wrappers-For-ProjectWise/blob/master/ProjectWiseDesignIntegration.png</iconUrl>
+    <copyright>Copyright 2020 Bentley Systems, Incorporated</copyright>
+    <tags>projectwise-webapi-for-iis-prereqs</tags>
+    <summary>Rolls up all the installation steps for the ProjectWise Web API before a reboot is required</summary>
+    <description>Rolls up all the installation steps for the ProjectWise Web API before a reboot is required</description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+      <dependency id="projectwise-deliverables-management" version="10.0.0.0" />
+      <dependency id="dotnetfx" version="4.8.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\chocolateyinstall.ps1" target="tools" />
+  </files>
+</package>
